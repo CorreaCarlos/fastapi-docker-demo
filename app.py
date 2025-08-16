@@ -3,3 +3,7 @@ app = FastAPI()
 @app.get("/")
 def read_root():
  return {"message": "Olá turma, este é meu primeiro container com FastAPI!"}
+
+@app.get("/carlos")
+def read_carlos():
+ return {"message": "Olá Carlos"}
